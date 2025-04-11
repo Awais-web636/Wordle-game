@@ -1,0 +1,96 @@
+.heading {
+   text-align: center;
+   text-decoration: underline;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.guesses {
+  margin-bottom: 20px;
+}
+
+.guess-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.letter-box {
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+
+.green {
+  background-color: #6aaa64;
+}
+
+.yellow {
+  background-color: #c9b458;
+}
+
+.gray {
+  background-color: #787c7e;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 100px;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #e89322;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
